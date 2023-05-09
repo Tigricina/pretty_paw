@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.png" type="image/png">-->
+
+  <title>Зоосад - Pretty Paw</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <img src="img/logo.svg" alt="Оранжевый логотип PrettyPaw" class="header__logo" />
+      <nav class="header__nav navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list">
+            <a href="/index.html" class="navigation__link">Главная</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#about" class="navigation__link">О&nbspзоосаде</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#history" class="navigation__link">История</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#deeds" class="navigation__link">Добрые&nbspдела</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#career" class="navigation__link">Карьера</a>
+          </li>
+        </ul>
+        <button class="navigation__button" aria-label="Открыть меню"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__container">
+        <h1 class="hero__title">Зоосад</h1>
+        <p class="hero__subtitle">С&nbsp;заботой о&nbsp;животных</p>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="about__title">О&nbsp;компании</h2>
+        <div class="about__content">
+          <p class="about__description">
+            Наш зоосад расположен в&nbsp;живописном месте и&nbsp;занимает
+            большую территорию. Здесь содержатся различные виды животных
+            со&nbsp;всего мира, начиная от&nbsp;крупных хищников, таких как
+            львы и&nbsp;тигры, до&nbsp;разнообразных птиц, рыб
+            и&nbsp;насекомых.
+          </p>
+          <a href="#about" class="about__link">Подробнее</a>
+
+          <!--ul.about__count-list>li.about__count-item*2>p.about__count+p.abount__count-desc-->
+          <ul class="about__count-list">
+            <li class="about__count-item">
+              <p class="about__count">500+</p>
+              <p class="abount__count-desc">Животных</p>
+            </li>
+            <li class="about__count-item">
+              <p class="about__count">200+</p>
+              <p class="abount__count-desc">Сотрудников</p>
+            </li>
+          </ul>
+          <!-- end of ul.about__count-list>li.about__count-item*2>p.about__count+p.abount__count-desc-->
+        </div>
+
+        <div class="about__picture">
+          <!-- Slider main container -->
+          <div class="about__slider swiper">
+            <!-- Additional required wrapper -->
+            <ul class="about__image-list swiper-wrapper">
+              <!-- Slides -->
+              <li class="about__image-item swiper-slide">
+                <picture class="about__image-wrapper">
+                  <source media="(min-width: 1280px)" srcset="img/leo_desktop.webp" type="image/webp">
+                  <source media="(min-width: 1280px)" srcset="img/leo_desktop.jpg">
+                  <source media="(min-width: 1024px)" srcset="img/leo_laptop.webp" type="image/webp">
+                  <source media="(min-width: 1024px)" srcset="img/leo_laptop.jpg">
+                  <source media="(min-width: 768px)" srcset="img/leo_tablet.webp" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/leo_tablet.jpg">
+                  <source media="(min-width: 768px)" srcset="img/leo.webp" type="image/webp">
+                  <img src="img/leo.jpg" alt="Lions" loading="lazy"/>
+                </picture>
+              </li>
+              <li class="about__image-item swiper-slide">
+                <picture class="about__image-wrapper">
+                  <source media="(min-width: 1280px)" srcset="img/parrots_desktop.webp" type="image/webp">
+                  <source media="(min-width: 1280px)" srcset="img/parrots_desktop.jpg">
+                  <source media="(min-width: 1024px)" srcset="img/parrots_laptop.webp" type="image/webp">
+                  <source media="(min-width: 1024px)" srcset="img/parrots_laptop.jpg">
+                  <source media="(min-width: 768px)" srcset="img/parrots_tablet.webp" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/parrots_tablet.jpg">
+                  <source media="(min-width: 768px)" srcset="img/parrots.webp" type="image/webp">
+                  <img src="img/parrots.jpg" alt="Parrots" loading="lazy"/>
+                </picture>
+              </li>
+              <li class="about__image-item swiper-slide">
+                <picture class="about__image-wrapper">
+                  <source media="(min-width: 1280px)" srcset="img/fulgens_desktop.webp" type="image/webp">
+                  <source media="(min-width: 1280px)" srcset="img/fulgens_desktop.jpg">
+                  <source media="(min-width: 1024px)" srcset="img/fulgens_laptop.webp" type="image/webp">
+                  <source media="(min-width: 1024px)" srcset="img/fulgens_laptop.jpg">
+                  <source media="(min-width: 768px)" srcset="img/fulgens_tablet.webp" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/fulgens_tablet.jpg">
+                  <source media="(min-width: 768px)" srcset="img/fulgens.webp" type="image/webp">
+                  <img src="img/fulgens.jpg" alt="Fulgens" loading="lazy"/>
+                </picture>
+              </li>
+              <li class="about__image-item swiper-slide">
+                <picture class="about__image-wrapper">
+                  <source media="(min-width: 1280px)" srcset="img/giraffe_desktop.webp" type="image/webp">
+                  <source media="(min-width: 1280px)" srcset="img/giraffe_desktop.jpg">
+                  <source media="(min-width: 1024px)" srcset="img/giraffe_laptop.webp" type="image/webp">
+                  <source media="(min-width: 1024px)" srcset="img/giraffe_laptop.jpg">
+                  <source media="(min-width: 768px)" srcset="img/giraffe_tablet.webp" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/giraffe_tablet.jpg">
+                  <source media="(min-width: 768px)" srcset="img/giraffe.webp" type="image/webp">
+                  <img src="img/giraffe.jpg" alt="Giraffe" loading="lazy"/>
+                </picture>
+              </li>
+            </ul>
+            <!-- If we need pagination -->
+            <div class="about__slider-pagination swiper-pagination"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <h2 class="visually-hidden">Локации зоопарка</h2>
+      <ul class="location__list">
+        <li class="location__item">
+          <h3 class="location__title">Млекопитающие</h3>
+          <p class="location__description">В&nbsp;эту группу входят животные, которые питаются молоком в&nbsp;раннем возрасте и&nbsp;обладают механизмом регуляции телевой температуры. В&nbsp;нашем зоосаде можно увидеть млекопитающих, таких как львы, тигры, слоны и&nbsp;обезьяны.</p>
+        </li>
+        <li class="location__item">
+          <h3 class="location__title">Птицы</h3>
+          <p class="location__description">Эта группа включает в&nbsp;себя разнообразных пернатых обитателей зоопарка, от&nbsp;маленьких певчих птиц до&nbsp;больших драпированных птиц хищников. В&nbsp;нашем зоосаде можно увидеть таких птиц, как фламинго, аисты, орлы и&nbsp;павлины.</p>
+        </li>
+        <li class="location__item">
+          <h3 class="location__title">Рептилии</h3>
+          <p class="location__description">В&nbsp;эту группу входят животные, которые имеют чешуйчатую кожу и&nbsp;обладают приспособлениями для жизни на&nbsp;суше или в&nbsp;воде. В&nbsp;нашем зоосаде можно увидеть таких рептилий, как крокодилы, змеи, черепахи и&nbsp;ящерицы.</p>
+        </li>
+        <li class="location__item">
+          <h3 class="location__title">Водный мир</h3>
+          <p class="location__description">В&nbsp;эту группу входят животные, которые живут в&nbsp;воде или зависят от&nbsp;воды для выживания.  В&nbsp;нашем зоосаде можно увидеть разнообразных рыб, дельфинов, китов, акул и&nbsp;других водных животных.</p>
+        </li>
+        <li class="location__item">
+          <h3 class="location__title">Насекомые</h3>
+          <p class="location__description">В&nbsp;эту группу входят разнообразные насекомые, такие как бабочки, жуки, муравьи и&nbsp;пчелы. В&nbsp;нашем зоосаде можно увидеть различных беспозвоночных и&nbsp;насекомых.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="career">
+      <div class="container career__container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer__container">
+      <img src="img/logo_black.svg" alt="black logo" class="footer__logo">
+
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <svg width="50" height="48" viewBox="0 0 50 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25.1629 6C25.1807 6.00004 25.1999 6.00008 25.2204 6.00013L25.4417 6.00082C28.0098 6.01026 41.0257 6.1046 44.5351 7.04807C46.6864 7.62508 48.3805 9.32557 48.9554 11.4841C49.272 12.67 49.4926 14.2463 49.6464 15.8674L49.6762 16.1921C49.7004 16.463 49.7228 16.7346 49.7435 17.0051L49.7675 17.3292C49.9729 20.1858 49.9969 22.8589 49.9997 23.4437L50 23.5226C50 23.5291 50 23.5397 50 23.5397V23.5839C50 23.5839 50 23.5945 50 23.601L49.9997 23.6799C49.9968 24.2868 49.9711 27.1427 49.7435 30.1187L49.7178 30.4437L49.6905 30.7691C49.5358 32.5584 49.3036 34.3351 48.9554 35.6395C48.3805 37.798 46.6864 39.4989 44.5351 40.0755C40.9088 41.0508 27.1315 41.1191 25.2204 41.1239L25.0732 41.1242C25.0612 41.1242 25.0506 41.1242 25.0414 41.1242L24.9814 41.1242C24.9814 41.1242 24.9676 41.1242 24.9585 41.1242L24.7795 41.1239C23.8137 41.1215 19.8173 41.1028 15.6321 40.9591L15.097 40.9401C15.0077 40.9368 14.9184 40.9334 14.8291 40.93L14.2934 40.9089L13.7589 40.8862C10.2917 40.734 6.98594 40.4845 5.46521 40.0755C3.31389 39.4989 1.61984 37.798 1.04486 35.6395C0.69653 34.3351 0.464309 32.5584 0.309494 30.7691L0.28219 30.4437L0.256541 30.1187C0.0371247 27.251 0.00527399 24.4947 0.000650499 23.7549L9.80056e-05 23.649C5.92341e-05 23.6395 2.69246e-05 23.6307 0 23.6227V23.5009C2.69246e-05 23.4929 5.92341e-05 23.4841 9.80056e-05 23.4746L0.000650499 23.3687C0.00483781 22.6988 0.0313575 20.3749 0.199315 17.8121L0.221055 17.4907C0.224804 17.4369 0.228617 17.3831 0.232494 17.3292L0.256541 17.0051C0.277241 16.7346 0.29961 16.463 0.323783 16.1921L0.353665 15.8674C0.50749 14.2463 0.728197 12.67 1.04486 11.4841C1.61984 9.32557 3.31389 7.62508 5.46521 7.04807C6.98594 6.63923 10.2917 6.38984 13.7589 6.23772L14.2934 6.21507L14.8291 6.19391C14.9184 6.1905 15.0077 6.18716 15.097 6.18387L15.6321 6.16484C19.5502 6.03034 23.3028 6.00543 24.5583 6.00082L24.7795 6.00013C24.8 6.00008 24.8192 6.00004 24.837 6H25.1629ZM20.0001 16.035V31.0886L32.9899 23.5622L20.0001 16.035Z" fill="black"/>
+              <rect x="0.5" y="0.5" width="49" height="46.1242" stroke="black"/>
+              </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25ZM25.896 18.4562C23.4644 19.4676 18.6046 21.5609 11.3166 24.7362C10.1331 25.2068 9.51316 25.6672 9.45673 26.1174C9.36135 26.8782 10.3141 27.1778 11.6115 27.5858C11.788 27.6413 11.9709 27.6988 12.1583 27.7597C13.4348 28.1746 15.1518 28.66 16.0445 28.6793C16.8542 28.6968 17.7579 28.363 18.7556 27.6779C25.565 23.0814 29.0801 20.758 29.3008 20.708C29.4565 20.6726 29.6722 20.6282 29.8184 20.7581C29.9646 20.8881 29.9502 21.1341 29.9347 21.2001C29.8403 21.6025 26.1004 25.0795 24.165 26.8788C23.5616 27.4397 23.1336 27.8376 23.0461 27.9285C22.8501 28.1321 22.6504 28.3246 22.4584 28.5097C21.2726 29.6529 20.3833 30.5101 22.5077 31.9101C23.5285 32.5828 24.3455 33.1391 25.1604 33.6941C26.0505 34.3002 26.9382 34.9048 28.0868 35.6577C28.3794 35.8495 28.6589 36.0488 28.9311 36.2428C29.9669 36.9813 30.8975 37.6447 32.0472 37.5389C32.7152 37.4774 33.4053 36.8493 33.7557 34.9758C34.5839 30.5483 36.2118 20.9552 36.5881 17.0021C36.621 16.6558 36.5796 16.2126 36.5463 16.018C36.513 15.8234 36.4434 15.5462 36.1905 15.341C35.8909 15.0979 35.4285 15.0467 35.2217 15.0503C34.2814 15.0669 32.8388 15.5685 25.896 18.4562Z" fill="black"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="footer__developers">
+        <li class="footer__developer">Designer: <a href="https://t.me/Mrshmallowww">Designer: Anastasia Ilina</a></li>
+        <li class="footer__developer">Developer: <a href="https://github.com/Tigricina">Karina Tigricina</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; PrettyPaw, 2023</p>
+    </div>
+  </footer>
+</body>
+
+</html>
