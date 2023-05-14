@@ -1,0 +1,68 @@
+.career {
+    padding: 80px 0;
+
+    @include lg {
+        padding: 100px 0;
+    }
+
+    &__container {
+        
+        @include md {
+
+        }
+
+    }
+    &__title {
+        font-weight: 1000;
+        font-size: 32px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: $second;
+        margin-bottom: 24px;
+
+        @include md {
+        }
+
+        @include lg {
+            font-size: 52px;
+            /*margin-bottom: 40px;*/
+            
+            margin-bottom: 0;
+        }
+
+
+    }
+    &__content {
+        
+    }
+    &__description {
+        font-size: 16px;
+        margin-bottom: 24px;
+
+        @include md {
+            margin-bottom: 40px;
+        }
+    }
+    &__link {
+        
+        margin-bottom: 40px;
+        @include md {
+
+        }
+    }
+    &__picture {
+    }
+    &__slider {
+    }
+
+    &__image-list {
+    }
+
+    &__image-item {
+    }
+    &__image-wrapper {
+    }
+    &__image {
+        border-radius: 16px;
+    }
+}

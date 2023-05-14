@@ -146,3 +146,17 @@ iframe {
   }
 
 }
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 16px;
+  background-color: $second;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  width: 40px;
+  background-color: $back;
+}
+
+
