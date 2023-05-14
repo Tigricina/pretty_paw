@@ -139,4 +139,10 @@ iframe {
     background: url('../img/arrow-right.svg') center/contain no-repeat;
   }
 
+  @include lg {
+    padding: 17px 32px;
+    font-size: 20px;
+    gap: 10px;
+  }
+
 }
